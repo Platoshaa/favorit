@@ -148,10 +148,12 @@
 
 
 
-
+   <div class="item">
+      <i class="loader d"></i>
+   </div>
    <div class="wrapper">
 
-      <header class="header">
+      <header class="header animate__animated animate__fadeInDown animate__delay-1s">
    <div class="header-top">
       <div class="container">
          <div class="header-top__inner">
@@ -183,7 +185,7 @@
                   </a>
                </div>
 
-               <a class="header-contacts__adress" href="">
+               <a class="header-contacts__adress pl" href="#map">
                   <svg width="20" height="20" viewBox="0 0 20 20" fill="rgba(0, 0, 0, 0.658)"
                      xmlns="http://www.w3.org/2000/svg">
                      <path
@@ -213,67 +215,96 @@
       </div>
 
    </div>
-   <div class="header-content">
-      <div class="container">
-         <div class="header-content__inner">
-            <div class="header-logo logo">
-               <a href="index.html">
-                  <img src="img/logo.png" alt="" /></a>
-            </div>
-            <nav class="menu">
-               <ul class="header__list">
 
-                  <li class="header__list-item item-list">
-                     <a href="about.html" class="header__list-link">О нас</a>
-                     <ul class="item-list__submenu submenu-list">
-                        <li class="submenu-list__item">
-                           <a href="block.html">
-                              Основные сведения
-                           </a>
-                        </li>
-                        <li class="submenu-list__item">
-                           <a href="block.html">
-                              Обучение
-                           </a>
-                        </li>
-                        <li class="submenu-list__item">
-                           <a href="block.html ">
-                              Документация
-                           </a>
-                        </li>
-                        <li class="submenu-list__item">
-                           <a href="block.html">
-                              Руководство. Пед. состав
-                           </a>
-                        </li>
-                        <li class="submenu-list__item">
-                           <a href="block.html">
-                              Условия поступления
-                           </a>
-                        </li>
-                     </ul>
-                  </li>
+   <div class="container">
+      <div class="header-content__inner">
+         <div class="header-logo logo">
+            <a href="index.html">
+               <img src="img/logo.png" alt="" /></a>
+         </div>
+         <nav class="menu">
+            <ul class="header__list">
+
+               <li class="header__list-item item-list">
+                  <a href="about.html" class="header__list-link">О нас</a>
+                  <span class="item-list__mobile">
+
+                  </span>
+                  <ul class="item-list__submenu submenu-list">
+                     <li class="submenu-list__item">
+                        <a href="block.html">
+                           Основные сведения
+                        </a>
+                     </li>
+                     <li class="submenu-list__item">
+                        <a href="block.html">
+                           Обучение
+                        </a>
+                     </li>
+                     <li class="submenu-list__item">
+                        <a href="block.html ">
+                           Документация
+                        </a>
+                     </li>
+                     <li class="submenu-list__item">
+                        <a href="block.html">
+                           Руководство. Пед. состав
+                        </a>
+                     </li>
+                     <li class="submenu-list__item">
+                        <a href="block.html">
+                           Условия поступления
+                        </a>
+                     </li>
+                  </ul>
+               </li>
 
 
-                  <li class="header__list-item">
-                     <a href="teachers.html" class="header__list-link">Преподаватели</a>
-                  </li>
-                  <li class="header__list-item">
-                     <a href="faq.html" class="header__list-link">FaQ</a>
-                  </li>
-                  <li class="header__list-item">
-                     <a href="contacts.html" class="header__list-link">Контакты</a>
-                  </li>
+               <li class="header__list-item">
+                  <a href="teachers.html" class="header__list-link">Преподаватели</a>
+               </li>
+               <li class="header__list-item">
+                  <a href="faq.html" class="header__list-link">FaQ</a>
+               </li>
+               <li class="header__list-item">
+                  <a href="contacts.html" class="header__list-link">Контакты</a>
+               </li>
 
-               </ul>
-            </nav>
+            </ul>
+
+         </nav>
+         <div class="menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
          </div>
       </div>
-
    </div>
 
 
+
+
 </header>
+<div class="header-mobile__menu">
+
+</div>
+<div class="popup-map popup">
+   <div class="popup-table table">
+      <div class="cell">
+         <div class="popup-content popup-content__map">
+            <div class="popup-close">
+               <span></span>
+               <span></span>
+            </div>
+            <div class="popup__title">Как нас найти?</div>
+
+            <iframe
+               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2146.3623364341997!2d42.12568081627383!3d57.45513068104275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4152928977ff4343%3A0xb8e1ee30fe984df1!2z0JvQtdGB0L7Qt9Cw0LLQvtC00YHQutCw0Y8g0YPQuy4sIDEw0YQsINCa0LjQvdC10YjQvNCwLCDQmNCy0LDQvdC-0LLRgdC60LDRjyDQvtCx0LsuLCAxNTU4MDI!5e0!3m2!1sru!2sru!4v1622444672100!5m2!1sru!2sru"
+               width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+         </div>
+      </div>
+   </div>
+</div>
 
       <main class="main">
          <section id="about" class="about main-lone section-main">
@@ -457,8 +488,8 @@
                         </div>
                         <div id="e1hvTf6bXs1" class="about-inner__article-text">
                            <span class="text-article__inner">
-                              <p><span class="text-article__inner-span">РЕНО ЛОГАН, ДЕУ НЕКСИЯ, КИА СПЕКТРА</span>
-                                 оснащенные всем необходимым дополнительным оборудованием</p>
+                              <p>РЕНО ЛОГАН, <span class="text-article__inner-span">ДЕУ НЕКСИЯ</span>, КИА СПЕКТРА
+                              </p>
                            </span>
                         </div>
                      </div>
@@ -558,7 +589,9 @@
                   <span>Подпишитесь на нашу рассылку!</span>
                </p>
                <form class="footer__news-form header-search" action="#">
-                  <input type="email" class="input footer-form__input" placeholder="Email адресс">
+                  <input autocomplete="off" type="email" name="e-mail" data-value=""
+                     class="input footer-form__input req email" placeholder="Email адресс">
+
                   <button class="btn footer-form__btn" type="submit">
                      Новости
                   </button>

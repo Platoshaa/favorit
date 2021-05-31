@@ -7,6 +7,9 @@
 //</FORM>====================================================================================================
 
 //<BUTTONS (a.btn+tab)>====================================================================================================
+
+
+
 .btn{
 	padding: 10px 30px;
 	position: relative;
@@ -18,20 +21,41 @@
 	text-align: center;
 	color: #fff;
 	background-color: $color1;
-	/* Dark text button */
-	
+overflow: hidden;
+border: 1px solid transparent;
 a{
 	color: #fff;
 	background-color: $color1;
 }
+&:after {
+	background: #fff;
+	content: "";
+	height: 155px;
+	left: -75px;
+	opacity: .2;
+	position: absolute;
+	top: -50px;
+	transform: rotate(35deg);
+	transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+	width: 50px;
+	z-index: 10;
+ }
 	&:hover{ 
-		transition: all .2s;
+		border: 1px solid #fff;
+		box-shadow: 4px 3px 10px #000;
+		&:after {
+			left: 120%;
+			transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+		 }
 	}
 	&:focus{
 	
 	}
+	
 	&.fw{width: 100%;}
 }
+
+
 //</BUTTONS>====================================================================================================
 
 //<SELECT (sel+tab)>====================================================================================================
